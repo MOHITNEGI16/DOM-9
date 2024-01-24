@@ -1,0 +1,93 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+#container{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(227, 224, 224);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#stopWatchContainer{
+  margin-top:4%;
+ padding: 30px;
+  border-radius: 40px;
+  width: 60%;
+  height: 49%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+#timer{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+
+}
+#timer span{
+  font-size: 4rem;
+  font-weight: 900;
+  color: #234E70;
+}
+
+
+
+#buttons{
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#buttons button{
+  background-color: #234E70;
+  color: white;
+  width: 8rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  height: 2.9rem;
+  border-radius: 30px;
+}
+
+#lapsContainer{
+  border-radius: 30px;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y:scroll;
+  
+}
+
+#lapsContainer li{
+  background-color: #234E70;
+  list-style: none;
+  color: white;
+  width: 80%;
+  height: 9vh;
+  margin-top: 10px;
+  border-radius: 30px;
+  font-size: 2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.count{
+  margin-left: 30px;
+}
+
+
+.laps{
+  margin-left: 50%;
+  letter-spacing: 2px;
+}
+
